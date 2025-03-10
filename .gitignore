@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
+# JetBrains IDEs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/replstate.xml
+.idea/**/sonarlint/
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+.idea_modules/
+atlassian-ide-plugin.xml
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IntelliJ Output
+out/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Editor-based Rest Client
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# File-based project format
+*.iws
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# CMake build files
+/build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+.idea
